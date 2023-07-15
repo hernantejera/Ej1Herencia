@@ -20,9 +20,11 @@ namespace Ej1Herencia
             };
             Console.WriteLine($"El coche tiene {coche.CantidadPuertas} " +
                 $"puertas , su marca es {coche.Marca} y su modelo es {coche.Modelo}");
+            Console.WriteLine($"Para limpiar el parabrisas {coche.LimpiaParabrisas()}");
 
             Console.WriteLine($"La motocicleta tiene {motocicleta.CantidadPatas}" +
                 $" patas , su marca es {motocicleta.Marca} y su modelo es {motocicleta.Modelo}");
+            Console.WriteLine($"{motocicleta.DejarlaQuieta()}");
         }
     }
 }
